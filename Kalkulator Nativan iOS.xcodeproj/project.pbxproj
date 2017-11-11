@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A365045C1D809E20004DA05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365045B1D809E20004DA05E /* AppDelegate.swift */; };
+		A365045E1D809E20004DA05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365045D1D809E20004DA05E /* ViewController.swift */; };
+		A36504611D809E20004DA05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365045F1D809E20004DA05E /* Main.storyboard */; };
+		A36504631D809E20004DA05E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36504621D809E20004DA05E /* Images.xcassets */; };
+		A36504661D809E20004DA05E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A36504641D809E20004DA05E /* LaunchScreen.xib */; };
+		A36504721D809E20004DA05E /* Kalkulator_Nativan_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36504711D809E20004DA05E /* Kalkulator_Nativan_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A365046C1D809E20004DA05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A365044E1D809E20004DA05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A36504551D809E20004DA05E;
+			remoteInfo = "Kalkulator Nativan iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A36504561D809E20004DA05E /* Kalkulator Nativan iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kalkulator Nativan iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365045A1D809E20004DA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365045B1D809E20004DA05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A365045D1D809E20004DA05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A36504601D809E20004DA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A36504621D809E20004DA05E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A36504651D809E20004DA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A365046B1D809E20004DA05E /* Kalkulator Nativan iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kalkulator Nativan iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36504701D809E20004DA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36504711D809E20004DA05E /* Kalkulator_Nativan_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kalkulator_Nativan_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A36504531D809E20004DA05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36504681D809E20004DA05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A365044D1D809E20004DA05E = {
+			isa = PBXGroup;
+			children = (
+				A36504581D809E20004DA05E /* Kalkulator Nativan iOS */,
+				A365046E1D809E20004DA05E /* Kalkulator Nativan iOSTests */,
+				A36504571D809E20004DA05E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A36504571D809E20004DA05E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36504561D809E20004DA05E /* Kalkulator Nativan iOS.app */,
+				A365046B1D809E20004DA05E /* Kalkulator Nativan iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A36504581D809E20004DA05E /* Kalkulator Nativan iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A365045B1D809E20004DA05E /* AppDelegate.swift */,
+				A365045D1D809E20004DA05E /* ViewController.swift */,
+				A365045F1D809E20004DA05E /* Main.storyboard */,
+				A36504621D809E20004DA05E /* Images.xcassets */,
+				A36504641D809E20004DA05E /* LaunchScreen.xib */,
+				A36504591D809E20004DA05E /* Supporting Files */,
+			);
+			path = "Kalkulator Nativan iOS";
+			sourceTree = "<group>";
+		};
+		A36504591D809E20004DA05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A365045A1D809E20004DA05E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A365046E1D809E20004DA05E /* Kalkulator Nativan iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A36504711D809E20004DA05E /* Kalkulator_Nativan_iOSTests.swift */,
+				A365046F1D809E20004DA05E /* Supporting Files */,
+			);
+			path = "Kalkulator Nativan iOSTests";
+			sourceTree = "<group>";
+		};
+		A365046F1D809E20004DA05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36504701D809E20004DA05E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A36504551D809E20004DA05E /* Kalkulator Nativan iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36504751D809E20004DA05E /* Build configuration list for PBXNativeTarget "Kalkulator Nativan iOS" */;
+			buildPhases = (
+				A36504521D809E20004DA05E /* Sources */,
+				A36504531D809E20004DA05E /* Frameworks */,
+				A36504541D809E20004DA05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kalkulator Nativan iOS";
+			productName = "Kalkulator Nativan iOS";
+			productReference = A36504561D809E20004DA05E /* Kalkulator Nativan iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A365046A1D809E20004DA05E /* Kalkulator Nativan iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36504781D809E20004DA05E /* Build configuration list for PBXNativeTarget "Kalkulator Nativan iOSTests" */;
+			buildPhases = (
+				A36504671D809E20004DA05E /* Sources */,
+				A36504681D809E20004DA05E /* Frameworks */,
+				A36504691D809E20004DA05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A365046D1D809E20004DA05E /* PBXTargetDependency */,
+			);
+			name = "Kalkulator Nativan iOSTests";
+			productName = "Kalkulator Nativan iOSTests";
+			productReference = A365046B1D809E20004DA05E /* Kalkulator Nativan iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A365044E1D809E20004DA05E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nakladnički Laboratorij 08";
+				TargetAttributes = {
+					A36504551D809E20004DA05E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A365046A1D809E20004DA05E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A36504551D809E20004DA05E;
+					};
+				};
+			};
+			buildConfigurationList = A36504511D809E20004DA05E /* Build configuration list for PBXProject "Kalkulator Nativan iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A365044D1D809E20004DA05E;
+			productRefGroup = A36504571D809E20004DA05E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A36504551D809E20004DA05E /* Kalkulator Nativan iOS */,
+				A365046A1D809E20004DA05E /* Kalkulator Nativan iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A36504541D809E20004DA05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36504611D809E20004DA05E /* Main.storyboard in Resources */,
+				A36504661D809E20004DA05E /* LaunchScreen.xib in Resources */,
+				A36504631D809E20004DA05E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36504691D809E20004DA05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36504521D809E20004DA05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365045E1D809E20004DA05E /* ViewController.swift in Sources */,
+				A365045C1D809E20004DA05E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36504671D809E20004DA05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36504721D809E20004DA05E /* Kalkulator_Nativan_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A365046D1D809E20004DA05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A36504551D809E20004DA05E /* Kalkulator Nativan iOS */;
+			targetProxy = A365046C1D809E20004DA05E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A365045F1D809E20004DA05E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36504601D809E20004DA05E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A36504641D809E20004DA05E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36504651D809E20004DA05E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A36504731D809E20004DA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A36504741D809E20004DA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A36504761D809E20004DA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kalkulator Nativan iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A36504771D809E20004DA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kalkulator Nativan iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A36504791D809E20004DA05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kalkulator Nativan iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkulator Nativan iOS.app/Kalkulator Nativan iOS";
+			};
+			name = Debug;
+		};
+		A365047A1D809E20004DA05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kalkulator Nativan iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkulator Nativan iOS.app/Kalkulator Nativan iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A36504511D809E20004DA05E /* Build configuration list for PBXProject "Kalkulator Nativan iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36504731D809E20004DA05E /* Debug */,
+				A36504741D809E20004DA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36504751D809E20004DA05E /* Build configuration list for PBXNativeTarget "Kalkulator Nativan iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36504761D809E20004DA05E /* Debug */,
+				A36504771D809E20004DA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A36504781D809E20004DA05E /* Build configuration list for PBXNativeTarget "Kalkulator Nativan iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36504791D809E20004DA05E /* Debug */,
+				A365047A1D809E20004DA05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A365044E1D809E20004DA05E /* Project object */;
+}
